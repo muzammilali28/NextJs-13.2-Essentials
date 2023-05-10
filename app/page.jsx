@@ -42,7 +42,7 @@ const HomePage = () => {
 
   return (
     <>
-      <h1>Welcome to My Site</h1>
+      <h1>Home Page</h1>
       <SearchedCourses setSearchedCourse={(course) => setSearchedCourse(course)} />
       {/* {loading ?
         <CustomLoader /> :
